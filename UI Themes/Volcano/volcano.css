@@ -1,0 +1,221 @@
+body {
+    background-color: gray;
+}
+
+#announcements {
+    background-color: #c63516;
+    color: white;
+}
+
+#tasklistbox {
+    background-color: black;
+}
+
+.panel {
+    background-color: #c63516;
+    box-shadow: 0 0 8px red;
+}
+
+.panel > h3 {
+  background-color: gray;
+  border-bottom: 1px solid #9ec690;
+  color: #004000;
+  text-align: left;
+  padding: 4px;
+  margin: 0;
+}
+
+#announcements > ul > li > a {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2px 4px;
+  color: #004000;
+  text-decoration: none;
+  position: relative;
+}
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  background: #c63516;
+  position: relative;
+  padding-top: 2px;
+  z-index: 20;
+  border-bottom: 2px solid #9ec690;
+}
+
+#navigation {
+  background: gray;
+  position: relative;
+  z-index: 4;
+  border-bottom: 2px solid #9ec690;
+}
+
+#navigation > #navbtns > li > a, #navigation #navbookmark > li > a {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  line-height: 22px;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #004000;
+  text-decoration: none;
+  background-color: #c63516;
+  text-align: center;
+  position: relative;
+  white-space: nowrap;
+  border-radius: 6px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#footbar {
+  background-color: #c63516;
+  border-top: 2px solid black;
+  padding: 4px;
+  font-size: 80%;
+}
+
+#counters {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  width: 320px;
+  height: 92px;
+  box-sizing: border-box;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+  background: #c63516;
+}
+
+#counters > #counterlist > li {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  position: static !important;
+  width: 40px;
+  height: 40px;
+  border-left: 2px solid #c63516;
+  border-left-width: 2px;
+  border-right: 2px solid #c63516;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#partypage #partybox #profilelinks {
+  border: 1px solid black;
+  background-color: gray;
+  box-shadow: 0 0 8px red;
+  color: #004000;
+  padding: 4px;
+  border-radius: 8px;
+  width: 620px;
+  margin: 0 auto 8px;
+}
+
+#eggtimeinfo {
+  margin: 5px 5px 16px auto;
+  width: 620px;
+  border: 1px solid black;
+  background-color: #c63516;
+  box-shadow: 0 0 8px red;
+  color: #004000;
+  padding: 0 4px;
+  border-radius: 8px;
+}
+
+.party > div {
+  text-align: left;
+  width: 310px;
+  margin: 0 auto 10px;
+  transition: opacity 0.4s linear;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 0 0 8px red;
+  background: #c63516;
+  box-sizing: border-box;
+  position: relative;
+  padding: 5px;
+}
+
+.expbar {
+  margin: 10px auto 5px;
+  border: 1px solid black;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fe526d;
+  color: black;
+  position: relative;
+  padding: 4px 4px;
+}
+
+.expbar > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 1px solid #9ec690;
+  background-color: #32f150;
+}
+
+#partypage #tasklistbox #tasklist > li > a .new {
+  background-color: gray;
+  color: #004000;
+  text-decoration: none;
+  font-size: 70%;
+  display: inline-block;
+  padding: 2px;
+  border-radius: 4px;
+  margin-right: 4px;
+  vertical-align: top;
+}
+
+.party > div > .action > a {
+  display: block;
+  height: 52px;
+  line-height: 52px;
+  background: gray;
+  color: #004000;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.mu_navlink {
+  display: inline-block;
+  width: 120px;
+  box-sizing: border-box;
+  margin: 0 10px 8px;
+  background-color: #c63516;
+  color: #004000 !important;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.fieldslink {
+  display: block;
+  width: 300px;
+  box-sizing: border-box;
+  margin: 0 auto 8px;
+  background-color: #c63516;
+  border: 1px solid black;
+  color: #004000 !important;
+  text-decoration: none;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 0 8px red;
+}
